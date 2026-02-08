@@ -157,3 +157,9 @@ Evaluasi dilakukan dalam mode **single-line** (semua whitespace di-normalize men
 - **CLAHE, Sharpening, Thresholding, dan Morphology dinonaktifkan** karena Tesseract LSTM (OEM 3) lebih akurat pada gambar grayscale dibanding binary.
 - **Dokumen dengan watermark/stempel** cenderung memiliki CER lebih tinggi. Garbage line removal membantu mengurangi noise, tetapi tidak bisa menghilangkan sepenuhnya.
 - **Dokumen digital bersih** (tanpa watermark) bisa mencapai CER kurang dari 1%.
+## Version
+1.0.1
+1. Skip Preprocessing step CLAHE, THRESHOLDING, MORPHOLOGICAL OPERATIONS
+2. Add clean garbage line
+3. Add output OCR using List
+4. Add time on each processing, start at conversion file to image.
