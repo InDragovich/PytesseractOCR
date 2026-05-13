@@ -1,0 +1,7 @@
+filename,category,psm,wer_percent,cer_percent,gt_length,ocr_length,konversi_s,orientasi_s,grayscale_s,denoise_s,threshold_s,ekstraksi_s,total_s
+ANYERLOR (Listrik).jpg,listrik,4,48.87,29.73,925,794,0.086,1.22,0.002,0.258,0.007,0.56,2.133
+BANDARBARU (Listrik).pdf,listrik,4,23.19,15.62,928,829,0.32,2.921,0.035,0.085,0.0,0.927,4.288
+BATANGKUIS (Air Gas).pdf,air,3,27.27,15.05,857,795,0.212,2.952,0.03,0.077,0.0,0.941,4.212
+WANCI (Telpon).pdf,telepon,4,10.2,1.66,723,729,0.127,1.359,0.009,0.046,0.012,0.624,2.177
+
+RATA-RATA,,,27.38,15.52,,,0.186,2.113,0.019,0.117,0.005,0.763,3.203

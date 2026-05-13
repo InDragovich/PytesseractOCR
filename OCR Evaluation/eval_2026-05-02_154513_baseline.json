@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-05-02T15:45:13",
+  "label": "baseline",
+  "notes": "",
+  "tesseract_version": "5.5.0.20241111",
+  "config": {
+    "category_psm": {
+      "listrik": 4,
+      "air": 3,
+      "telepon": 4
+    },
+    "psm_default": 4,
+    "preprocessing": {
+      "pdf_dpi": 300,
+      "nlmeans_h": 10,
+      "noise_variance_threshold": 1500,
+      "adaptive_block_size": 31,
+      "adaptive_c": 10,
+      "clahe_clip_limit": 2.0,
+      "clahe_tile_size": 8,
+      "bilateral_d": 9,
+      "bilateral_sigma_color": 75,
+      "bilateral_sigma_space": 75,
+      "enable_clahe_jpg": false,
+      "enable_bilateral_pdf": false,
+      "enable_threshold_pdf_noisy": true
+    },
+    "ocr": {
+      "ocr_min_alnum": 100,
+      "garbage_alnum_ratio": 0.4,
+      "garbage_single_char_ratio": 0.6,
+      "osd_min_confidence": 1.0,
+      "rotation_conf_diff": 10,
+      "skew_min_angle": 0.5,
+      "skew_max_angle": 15.0
+    }
+  },
+  "summary": {
+    "total_documents": 4,
+    "avg_wer_percent": 25.08,
+    "avg_cer_percent": 14.42,
+    "avg_seconds_per_doc": 3.23
+  },
+  "per_document": [
+    {
+      "filename": "ANYERLOR (Listrik).jpg",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 37.59,
+      "cer_percent": 21.19,
+      "ground_truth_length": 925,
+      "ocr_output_length": 819,
+      "timing": {
+        "Konversi": 0.019,
+        "Orientasi": 1.15,
+        "Grayscale": 0.002,
+        "Denoise": 0.247,
+        "Threshold": 0.003,
+        "Ekstraksi": 0.556,
+        "TOTAL": 1.976
+      }
+    },
+    {
+      "filename": "BANDARBARU (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 23.19,
+      "cer_percent": 15.62,
+      "ground_truth_length": 928,
+      "ocr_output_length": 829,
+      "timing": {
+        "Konversi": 0.254,
+        "Orientasi": 2.991,
+        "Grayscale": 0.026,
+        "Denoise": 0.085,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.906,
+        "TOTAL": 4.262
+      }
+    },
+    {
+      "filename": "BATANGKUIS (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 27.27,
+      "cer_percent": 15.05,
+      "ground_truth_length": 857,
+      "ocr_output_length": 795,
+      "timing": {
+        "Konversi": 0.201,
+        "Orientasi": 3.079,
+        "Grayscale": 0.037,
+        "Denoise": 0.08,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.953,
+        "TOTAL": 4.35
+      }
+    },
+    {
+      "filename": "WANCI (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 12.24,
+      "cer_percent": 5.81,
+      "ground_truth_length": 723,
+      "ocr_output_length": 729,
+      "timing": {
+        "Konversi": 0.105,
+        "Orientasi": 1.512,
+        "Grayscale": 0.01,
+        "Denoise": 0.018,
+        "Threshold": 0.012,
+        "Ekstraksi": 0.692,
+        "TOTAL": 2.349
+      }
+    }
+  ]
+}
