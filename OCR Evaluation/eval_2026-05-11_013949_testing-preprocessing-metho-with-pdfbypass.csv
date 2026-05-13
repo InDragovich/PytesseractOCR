@@ -1,0 +1,45 @@
+filename,category,psm,wer_percent,cer_percent,gt_length,ocr_length,konversi_s,orientasi_s,grayscale_s,denoise_s,threshold_s,ekstraksi_s,total_s
+ANYERLOR (Listrik).jpg,listrik,4,28.57,8.22,925,936,0.022,1.493,0.002,0.368,0.018,0.69,2.593
+BANDARBARU (Listrik).pdf,listrik,4,23.19,15.62,928,829,0.292,3.801,0.042,0.216,0.0,1.055,5.406
+BANDARBARU (Telpon).pdf,telepon,4,3.28,0.46,432,433,0.239,2.772,0.042,0.214,0.0,0.731,3.999
+BATANGKUIS (Air Gas).pdf,air,3,27.27,15.05,857,795,0.274,3.442,0.044,0.222,0.0,1.046,5.028
+BATANGKUIS (Telpon).pdf,telepon,4,8.2,1.39,433,434,0.266,2.588,0.04,0.216,0.0,0.763,3.873
+DEMPET (Air Gas).png,air,3,60.47,24.74,481,524,0.0,1.506,0.004,0.328,0.016,0.627,2.483
+JERUKLEGI (Listrik).jpg,listrik,4,61.76,30.88,923,798,0.0,0.891,0.002,0.316,0.012,0.564,1.785
+LEGOK (Telpon).pdf,telepon,4,6.93,1.63,737,745,0.687,3.295,0.04,0.221,0.0,1.399,5.642
+MANYAR (Listrik).pdf,listrik,4,37.5,33.23,927,653,0.315,2.125,0.013,0.074,0.0,0.96,3.487
+MANYAR (Telpon).pdf,telepon,4,45.36,33.44,637,519,0.321,2.671,0.015,0.091,0.0,0.921,4.019
+MEDANPAYAGELI (Air Gas).pdf,air,3,31.11,17.57,865,789,0.254,3.396,0.041,0.227,0.0,1.034,4.951
+MEDANPAYAGELI (Listrik).pdf,listrik,4,19.71,11.84,929,844,0.249,3.643,0.043,0.239,0.0,1.125,5.299
+MEDANPAYAGELI (Telpon).pdf,telepon,4,9.84,1.16,432,434,0.251,2.517,0.042,0.232,0.0,0.759,3.801
+MUARATAE (Air Gas).png,air,3,90.16,84.11,661,115,0.0,0.795,0.003,0.308,0.007,0.513,1.626
+NAMORAMBE (Air Gas).pdf,air,3,28.68,16.43,840,771,0.258,3.322,0.039,0.219,0.0,0.948,4.786
+NAMORAMBE (Listrik).pdf,listrik,4,18.71,13.52,932,843,0.238,3.577,0.046,0.224,0.0,1.054,5.14
+NAMORAMBE (Telpon).pdf,telepon,4,8.2,1.39,433,434,0.35,2.626,0.051,0.23,0.0,0.777,4.034
+PANCAJAYA (Listrik).pdf,listrik,4,64.76,47.47,632,811,0.248,3.323,0.047,0.33,0.203,0.997,5.148
+PANCURBATU (Listrik).pdf,listrik,4,19.71,12.75,933,849,0.261,3.44,0.05,0.235,0.0,1.08,5.066
+PANCURBATU (Telpon).pdf,telepon,4,8.2,1.16,432,434,0.253,2.908,0.051,0.234,0.0,0.767,4.213
+SEPATAN (Listrik).pdf,listrik,4,12.5,3.27,672,681,0.625,2.628,0.046,0.213,0.0,1.204,4.715
+SINDANGKERTA (Telpon).jpg,telepon,4,37.76,15.91,723,692,0.0,1.338,0.004,0.331,0.015,0.603,2.291
+SUKATANI (Air Gas).pdf,air,3,18.33,10.7,813,765,0.319,3.142,0.044,0.218,0.0,1.08,4.803
+TOPOYO (Listrik).png,listrik,4,44.85,26.19,924,777,0.0,1.045,0.004,0.293,0.01,0.569,1.921
+CISOLOK (Air Gas).pdf,unknown,4,0.0,0.0,852,852,0.0,0.0,0.0,0.0,0.0,0.03,0.03
+DANDER (Air Gas).pdf,unknown,4,0.0,0.0,1080,1080,0.0,0.0,0.0,0.0,0.0,0.028,0.028
+DEMPET (Listrik).pdf,unknown,4,0.0,0.0,908,908,0.0,0.0,0.0,0.0,0.0,0.026,0.026
+JATINEGARATEGAL (Air Gas).pdf,unknown,4,0.0,0.0,1117,1117,0.0,0.0,0.0,0.0,0.0,0.026,0.026
+KAPAS (Listrik).pdf,unknown,4,0.0,0.0,636,636,0.0,0.0,0.0,0.0,0.0,0.029,0.029
+KARANGANYARDEMAK (Telpon).pdf,unknown,4,0.0,0.0,735,735,0.0,0.0,0.0,0.0,0.0,0.027,0.027
+MATAOMPANA (Air Gas).pdf,unknown,4,0.0,0.0,910,910,0.0,0.0,0.0,0.0,0.0,0.026,0.026
+MUARAANCALONG (Air Gas).pdf,unknown,4,0.0,0.0,825,825,0.0,0.0,0.0,0.0,0.0,0.03,0.03
+MUTING (Listrik).pdf,unknown,4,0.0,0.0,628,628,0.0,0.0,0.0,0.0,0.0,0.028,0.028
+NAGRAK (Air Gas).pdf,unknown,4,0.0,0.0,845,845,0.0,0.0,0.0,0.0,0.0,0.03,0.03
+NAGRAK (Listrik).pdf,unknown,4,0.0,0.0,930,930,0.0,0.0,0.0,0.0,0.0,0.03,0.03
+PALANGGA (Listrik).pdf,unknown,4,0.0,0.0,635,635,0.0,0.0,0.0,0.0,0.0,0.026,0.026
+PARUNGPANJANG (Air Gas).pdf,unknown,4,0.0,0.0,972,972,0.0,0.0,0.0,0.0,0.0,0.028,0.028
+PARUNGPANJANG (Listrik).pdf,unknown,4,0.0,0.0,932,932,0.0,0.0,0.0,0.0,0.0,0.03,0.03
+PENDAWANBARU (Listrik).pdf,unknown,4,0.0,0.0,927,927,0.0,0.0,0.0,0.0,0.0,0.028,0.028
+TANAHMIRING (Listrik).pdf,unknown,4,0.0,0.0,631,631,0.0,0.0,0.0,0.0,0.0,0.03,0.03
+WANCI (Listrik).pdf,unknown,4,0.0,0.0,925,925,0.0,0.0,0.0,0.0,0.0,0.029,0.029
+WANCI (Telpon).pdf,unknown,4,0.0,0.0,722,722,0.0,0.0,0.0,0.0,0.0,0.027,0.027
+
+RATA-RATA,,,17.02,10.19,,,0.136,1.483,0.018,0.138,0.007,0.518,2.3

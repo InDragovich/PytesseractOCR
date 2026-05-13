@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-05-02T16:28:42",
+  "label": "baseline",
+  "notes": "",
+  "tesseract_version": "5.5.0.20241111",
+  "config": {
+    "category_psm": {
+      "listrik": 4,
+      "air": 3,
+      "telepon": 4
+    },
+    "psm_default": 4,
+    "preprocessing": {
+      "pdf_dpi": 400,
+      "tesseract_dpi_pdf": 400,
+      "tesseract_dpi_jpg": 300,
+      "nlmeans_h": 10,
+      "noise_variance_threshold": 1500,
+      "adaptive_block_size": 31,
+      "adaptive_c": 10
+    },
+    "ocr": {
+      "ocr_min_alnum": 100,
+      "garbage_alnum_ratio": 0.4,
+      "garbage_single_char_ratio": 0.6,
+      "osd_min_confidence": 1.0,
+      "rotation_conf_diff": 10,
+      "skew_min_angle": 0.5,
+      "skew_max_angle": 15.0
+    }
+  },
+  "summary": {
+    "total_documents": 4,
+    "avg_wer_percent": 21.79,
+    "avg_cer_percent": 12.56,
+    "avg_seconds_per_doc": 3.97
+  },
+  "per_document": [
+    {
+      "filename": "ANYERLOR (Listrik).jpg",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 37.59,
+      "cer_percent": 21.19,
+      "ground_truth_length": 925,
+      "ocr_output_length": 819,
+      "timing": {
+        "Konversi": 0.0,
+        "Orientasi": 1.191,
+        "Grayscale": 0.002,
+        "Denoise": 0.203,
+        "Threshold": 0.003,
+        "Ekstraksi": 0.51,
+        "TOTAL": 1.91
+      }
+    },
+    {
+      "filename": "BANDARBARU (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 21.01,
+      "cer_percent": 14.44,
+      "ground_truth_length": 928,
+      "ocr_output_length": 825,
+      "timing": {
+        "Konversi": 0.313,
+        "Orientasi": 4.172,
+        "Grayscale": 0.044,
+        "Denoise": 0.143,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.158,
+        "TOTAL": 5.831
+      }
+    },
+    {
+      "filename": "BATANGKUIS (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 26.52,
+      "cer_percent": 14.35,
+      "ground_truth_length": 857,
+      "ocr_output_length": 799,
+      "timing": {
+        "Konversi": 0.321,
+        "Orientasi": 4.024,
+        "Grayscale": 0.049,
+        "Denoise": 0.147,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.144,
+        "TOTAL": 5.685
+      }
+    },
+    {
+      "filename": "WANCI (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 2.04,
+      "cer_percent": 0.28,
+      "ground_truth_length": 723,
+      "ocr_output_length": 722,
+      "timing": {
+        "Konversi": 0.134,
+        "Orientasi": 1.634,
+        "Grayscale": 0.013,
+        "Denoise": 0.036,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.649,
+        "TOTAL": 2.467
+      }
+    }
+  ]
+}

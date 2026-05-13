@@ -1,0 +1,794 @@
+{
+  "timestamp": "2026-05-03T15:11:05",
+  "label": "baseline",
+  "notes": "",
+  "tesseract_version": "5.5.0.20241111",
+  "config": {
+    "category_psm": {
+      "listrik": 4,
+      "air": 3,
+      "telepon": 4
+    },
+    "psm_default": 4,
+    "preprocessing": {
+      "pdf_dpi": 300,
+      "nlmeans_h": 10,
+      "noise_variance_threshold": 1500,
+      "adaptive_block_size": 31,
+      "adaptive_c": 10
+    },
+    "ocr": {
+      "ocr_min_alnum": 100,
+      "garbage_alnum_ratio": 0.4,
+      "garbage_single_char_ratio": 0.6,
+      "osd_min_confidence": 1.0,
+      "rotation_conf_diff": 10,
+      "skew_min_angle": 0.5,
+      "skew_max_angle": 15.0
+    }
+  },
+  "summary": {
+    "total_documents": 42,
+    "avg_wer_percent": 20.47,
+    "avg_cer_percent": 13.37,
+    "avg_seconds_per_doc": 3.16
+  },
+  "per_document": [
+    {
+      "filename": "ANYERLOR (Listrik).jpg",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 37.59,
+      "cer_percent": 21.19,
+      "ground_truth_length": 925,
+      "ocr_output_length": 819,
+      "timing": {
+        "Konversi": 0.009,
+        "Orientasi": 1.329,
+        "Grayscale": 0.001,
+        "Denoise": 0.247,
+        "Threshold": 0.004,
+        "Ekstraksi": 0.602,
+        "TOTAL": 2.193
+      }
+    },
+    {
+      "filename": "BANDARBARU (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 23.19,
+      "cer_percent": 15.62,
+      "ground_truth_length": 928,
+      "ocr_output_length": 829,
+      "timing": {
+        "Konversi": 0.26,
+        "Orientasi": 3.207,
+        "Grayscale": 0.029,
+        "Denoise": 0.097,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.987,
+        "TOTAL": 4.58
+      }
+    },
+    {
+      "filename": "BANDARBARU (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 3.28,
+      "cer_percent": 0.46,
+      "ground_truth_length": 432,
+      "ocr_output_length": 433,
+      "timing": {
+        "Konversi": 0.221,
+        "Orientasi": 2.398,
+        "Grayscale": 0.035,
+        "Denoise": 0.095,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.719,
+        "TOTAL": 3.468
+      }
+    },
+    {
+      "filename": "BATANGKUIS (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 27.27,
+      "cer_percent": 15.05,
+      "ground_truth_length": 857,
+      "ocr_output_length": 795,
+      "timing": {
+        "Konversi": 0.209,
+        "Orientasi": 3.223,
+        "Grayscale": 0.03,
+        "Denoise": 0.097,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.028,
+        "TOTAL": 4.586
+      }
+    },
+    {
+      "filename": "BATANGKUIS (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 8.2,
+      "cer_percent": 1.39,
+      "ground_truth_length": 433,
+      "ocr_output_length": 434,
+      "timing": {
+        "Konversi": 0.214,
+        "Orientasi": 2.428,
+        "Grayscale": 0.033,
+        "Denoise": 0.098,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.702,
+        "TOTAL": 3.474
+      }
+    },
+    {
+      "filename": "CISOLOK (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 30.83,
+      "cer_percent": 21.81,
+      "ground_truth_length": 853,
+      "ocr_output_length": 743,
+      "timing": {
+        "Konversi": 0.228,
+        "Orientasi": 1.476,
+        "Grayscale": 0.01,
+        "Denoise": 0.026,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.683,
+        "TOTAL": 2.423
+      }
+    },
+    {
+      "filename": "DANDER (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 2.81,
+      "cer_percent": 0.93,
+      "ground_truth_length": 1081,
+      "ocr_output_length": 1076,
+      "timing": {
+        "Konversi": 0.135,
+        "Orientasi": 1.655,
+        "Grayscale": 0.006,
+        "Denoise": 0.022,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.857,
+        "TOTAL": 2.676
+      }
+    },
+    {
+      "filename": "DEMPET (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 54.93,
+      "cer_percent": 38.45,
+      "ground_truth_length": 827,
+      "ocr_output_length": 870,
+      "timing": {
+        "Konversi": 0.366,
+        "Orientasi": 3.65,
+        "Grayscale": 0.028,
+        "Denoise": 0.099,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.233,
+        "TOTAL": 5.376
+      }
+    },
+    {
+      "filename": "DEMPET (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 4.48,
+      "cer_percent": 1.21,
+      "ground_truth_length": 910,
+      "ocr_output_length": 903,
+      "timing": {
+        "Konversi": 0.119,
+        "Orientasi": 1.55,
+        "Grayscale": 0.008,
+        "Denoise": 0.026,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.823,
+        "TOTAL": 2.524
+      }
+    },
+    {
+      "filename": "JATINEGARATEGAL (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 20.83,
+      "cer_percent": 15.47,
+      "ground_truth_length": 1118,
+      "ocr_output_length": 1035,
+      "timing": {
+        "Konversi": 0.116,
+        "Orientasi": 1.684,
+        "Grayscale": 0.008,
+        "Denoise": 0.024,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.89,
+        "TOTAL": 2.722
+      }
+    },
+    {
+      "filename": "JERUKLEGI (Listrik).jpg",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 71.32,
+      "cer_percent": 49.84,
+      "ground_truth_length": 923,
+      "ocr_output_length": 574,
+      "timing": {
+        "Konversi": 0.007,
+        "Orientasi": 0.85,
+        "Grayscale": 0.001,
+        "Denoise": 0.22,
+        "Threshold": 0.002,
+        "Ekstraksi": 0.52,
+        "TOTAL": 1.6
+      }
+    },
+    {
+      "filename": "KAPAS (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 5.71,
+      "cer_percent": 0.63,
+      "ground_truth_length": 638,
+      "ocr_output_length": 637,
+      "timing": {
+        "Konversi": 0.114,
+        "Orientasi": 1.549,
+        "Grayscale": 0.005,
+        "Denoise": 0.021,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.549,
+        "TOTAL": 2.237
+      }
+    },
+    {
+      "filename": "KARANGANYARDEMAK (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 3.0,
+      "cer_percent": 0.41,
+      "ground_truth_length": 736,
+      "ocr_output_length": 735,
+      "timing": {
+        "Konversi": 0.118,
+        "Orientasi": 1.632,
+        "Grayscale": 0.007,
+        "Denoise": 0.023,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.606,
+        "TOTAL": 2.387
+      }
+    },
+    {
+      "filename": "LEGOK (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 6.93,
+      "cer_percent": 1.63,
+      "ground_truth_length": 737,
+      "ocr_output_length": 745,
+      "timing": {
+        "Konversi": 0.632,
+        "Orientasi": 3.152,
+        "Grayscale": 0.034,
+        "Denoise": 0.099,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.311,
+        "TOTAL": 5.228
+      }
+    },
+    {
+      "filename": "MANYAR (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 37.5,
+      "cer_percent": 33.23,
+      "ground_truth_length": 927,
+      "ocr_output_length": 653,
+      "timing": {
+        "Konversi": 0.29,
+        "Orientasi": 1.956,
+        "Grayscale": 0.009,
+        "Denoise": 0.028,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.883,
+        "TOTAL": 3.166
+      }
+    },
+    {
+      "filename": "MANYAR (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 45.36,
+      "cer_percent": 33.44,
+      "ground_truth_length": 637,
+      "ocr_output_length": 519,
+      "timing": {
+        "Konversi": 0.303,
+        "Orientasi": 2.48,
+        "Grayscale": 0.008,
+        "Denoise": 0.036,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.761,
+        "TOTAL": 3.589
+      }
+    },
+    {
+      "filename": "MATAOMPANA (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 3.52,
+      "cer_percent": 0.66,
+      "ground_truth_length": 912,
+      "ocr_output_length": 910,
+      "timing": {
+        "Konversi": 0.117,
+        "Orientasi": 1.696,
+        "Grayscale": 0.007,
+        "Denoise": 0.023,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.736,
+        "TOTAL": 2.579
+      }
+    },
+    {
+      "filename": "MEDANPAYAGELI (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 31.11,
+      "cer_percent": 17.57,
+      "ground_truth_length": 865,
+      "ocr_output_length": 789,
+      "timing": {
+        "Konversi": 0.245,
+        "Orientasi": 3.063,
+        "Grayscale": 0.035,
+        "Denoise": 0.094,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.022,
+        "TOTAL": 4.459
+      }
+    },
+    {
+      "filename": "MEDANPAYAGELI (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 19.71,
+      "cer_percent": 11.84,
+      "ground_truth_length": 929,
+      "ocr_output_length": 844,
+      "timing": {
+        "Konversi": 0.218,
+        "Orientasi": 3.299,
+        "Grayscale": 0.035,
+        "Denoise": 0.087,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.054,
+        "TOTAL": 4.693
+      }
+    },
+    {
+      "filename": "MEDANPAYAGELI (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 9.84,
+      "cer_percent": 1.16,
+      "ground_truth_length": 432,
+      "ocr_output_length": 434,
+      "timing": {
+        "Konversi": 0.217,
+        "Orientasi": 2.406,
+        "Grayscale": 0.038,
+        "Denoise": 0.087,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.678,
+        "TOTAL": 3.427
+      }
+    },
+    {
+      "filename": "MUARAANCALONG (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 6.35,
+      "cer_percent": 2.3,
+      "ground_truth_length": 826,
+      "ocr_output_length": 816,
+      "timing": {
+        "Konversi": 0.225,
+        "Orientasi": 1.55,
+        "Grayscale": 0.012,
+        "Denoise": 0.021,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.709,
+        "TOTAL": 2.517
+      }
+    },
+    {
+      "filename": "MUARATAE (Air Gas).png",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 90.98,
+      "cer_percent": 82.3,
+      "ground_truth_length": 661,
+      "ocr_output_length": 130,
+      "timing": {
+        "Konversi": 0.007,
+        "Orientasi": 0.832,
+        "Grayscale": 0.002,
+        "Denoise": 0.003,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.26,
+        "TOTAL": 1.104
+      }
+    },
+    {
+      "filename": "MUTING (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 3.85,
+      "cer_percent": 0.32,
+      "ground_truth_length": 629,
+      "ocr_output_length": 629,
+      "timing": {
+        "Konversi": 0.114,
+        "Orientasi": 1.544,
+        "Grayscale": 0.01,
+        "Denoise": 0.022,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.585,
+        "TOTAL": 2.275
+      }
+    },
+    {
+      "filename": "NAGRAK (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 29.23,
+      "cer_percent": 20.8,
+      "ground_truth_length": 846,
+      "ocr_output_length": 746,
+      "timing": {
+        "Konversi": 0.119,
+        "Orientasi": 1.437,
+        "Grayscale": 0.007,
+        "Denoise": 0.024,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.679,
+        "TOTAL": 2.265
+      }
+    },
+    {
+      "filename": "NAGRAK (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 3.65,
+      "cer_percent": 1.07,
+      "ground_truth_length": 931,
+      "ocr_output_length": 925,
+      "timing": {
+        "Konversi": 0.135,
+        "Orientasi": 1.548,
+        "Grayscale": 0.01,
+        "Denoise": 0.022,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.774,
+        "TOTAL": 2.49
+      }
+    },
+    {
+      "filename": "NAMORAMBE (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 28.68,
+      "cer_percent": 16.43,
+      "ground_truth_length": 840,
+      "ocr_output_length": 771,
+      "timing": {
+        "Konversi": 0.231,
+        "Orientasi": 2.951,
+        "Grayscale": 0.033,
+        "Denoise": 0.087,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.869,
+        "TOTAL": 4.171
+      }
+    },
+    {
+      "filename": "NAMORAMBE (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 18.71,
+      "cer_percent": 13.52,
+      "ground_truth_length": 932,
+      "ocr_output_length": 843,
+      "timing": {
+        "Konversi": 0.226,
+        "Orientasi": 3.176,
+        "Grayscale": 0.04,
+        "Denoise": 0.089,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.974,
+        "TOTAL": 4.504
+      }
+    },
+    {
+      "filename": "NAMORAMBE (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 8.2,
+      "cer_percent": 1.39,
+      "ground_truth_length": 433,
+      "ocr_output_length": 434,
+      "timing": {
+        "Konversi": 0.335,
+        "Orientasi": 2.369,
+        "Grayscale": 0.036,
+        "Denoise": 0.085,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.701,
+        "TOTAL": 3.526
+      }
+    },
+    {
+      "filename": "PALANGGA (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 2.86,
+      "cer_percent": 0.31,
+      "ground_truth_length": 636,
+      "ocr_output_length": 635,
+      "timing": {
+        "Konversi": 0.16,
+        "Orientasi": 1.637,
+        "Grayscale": 0.01,
+        "Denoise": 0.02,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.597,
+        "TOTAL": 2.425
+      }
+    },
+    {
+      "filename": "PANCAJAYA (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 55.24,
+      "cer_percent": 52.69,
+      "ground_truth_length": 632,
+      "ocr_output_length": 887,
+      "timing": {
+        "Konversi": 0.228,
+        "Orientasi": 3.116,
+        "Grayscale": 0.029,
+        "Denoise": 0.093,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.933,
+        "TOTAL": 4.4
+      }
+    },
+    {
+      "filename": "PANCURBATU (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 19.71,
+      "cer_percent": 12.75,
+      "ground_truth_length": 933,
+      "ocr_output_length": 849,
+      "timing": {
+        "Konversi": 0.221,
+        "Orientasi": 3.326,
+        "Grayscale": 0.035,
+        "Denoise": 0.094,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.973,
+        "TOTAL": 4.649
+      }
+    },
+    {
+      "filename": "PANCURBATU (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 8.2,
+      "cer_percent": 1.16,
+      "ground_truth_length": 432,
+      "ocr_output_length": 434,
+      "timing": {
+        "Konversi": 0.275,
+        "Orientasi": 2.472,
+        "Grayscale": 0.036,
+        "Denoise": 0.09,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.72,
+        "TOTAL": 3.593
+      }
+    },
+    {
+      "filename": "PARUNGPANJANG (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 2.58,
+      "cer_percent": 0.41,
+      "ground_truth_length": 973,
+      "ocr_output_length": 975,
+      "timing": {
+        "Konversi": 0.176,
+        "Orientasi": 1.619,
+        "Grayscale": 0.007,
+        "Denoise": 0.022,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.834,
+        "TOTAL": 2.658
+      }
+    },
+    {
+      "filename": "PARUNGPANJANG (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 3.62,
+      "cer_percent": 1.07,
+      "ground_truth_length": 933,
+      "ocr_output_length": 927,
+      "timing": {
+        "Konversi": 0.147,
+        "Orientasi": 1.541,
+        "Grayscale": 0.007,
+        "Denoise": 0.02,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.733,
+        "TOTAL": 2.448
+      }
+    },
+    {
+      "filename": "PENDAWANBARU (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 3.65,
+      "cer_percent": 1.08,
+      "ground_truth_length": 928,
+      "ocr_output_length": 922,
+      "timing": {
+        "Konversi": 0.167,
+        "Orientasi": 1.516,
+        "Grayscale": 0.006,
+        "Denoise": 0.02,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.763,
+        "TOTAL": 2.473
+      }
+    },
+    {
+      "filename": "SEPATAN (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 12.5,
+      "cer_percent": 3.27,
+      "ground_truth_length": 672,
+      "ocr_output_length": 681,
+      "timing": {
+        "Konversi": 0.673,
+        "Orientasi": 2.496,
+        "Grayscale": 0.032,
+        "Denoise": 0.084,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.108,
+        "TOTAL": 4.393
+      }
+    },
+    {
+      "filename": "SINDANGKERTA (Telpon).jpg",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 41.84,
+      "cer_percent": 21.85,
+      "ground_truth_length": 723,
+      "ocr_output_length": 615,
+      "timing": {
+        "Konversi": 0.01,
+        "Orientasi": 1.504,
+        "Grayscale": 0.005,
+        "Denoise": 0.194,
+        "Threshold": 0.003,
+        "Ekstraksi": 0.507,
+        "TOTAL": 2.223
+      }
+    },
+    {
+      "filename": "SUKATANI (Air Gas).pdf",
+      "category": "air",
+      "psm": 3,
+      "wer_percent": 18.33,
+      "cer_percent": 10.7,
+      "ground_truth_length": 813,
+      "ocr_output_length": 765,
+      "timing": {
+        "Konversi": 0.272,
+        "Orientasi": 2.917,
+        "Grayscale": 0.035,
+        "Denoise": 0.086,
+        "Threshold": 0.0,
+        "Ekstraksi": 1.007,
+        "TOTAL": 4.317
+      }
+    },
+    {
+      "filename": "TANAHMIRING (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 3.85,
+      "cer_percent": 0.32,
+      "ground_truth_length": 632,
+      "ocr_output_length": 632,
+      "timing": {
+        "Konversi": 0.127,
+        "Orientasi": 1.603,
+        "Grayscale": 0.009,
+        "Denoise": 0.02,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.548,
+        "TOTAL": 2.307
+      }
+    },
+    {
+      "filename": "TOPOYO (Listrik).png",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 45.59,
+      "cer_percent": 34.63,
+      "ground_truth_length": 924,
+      "ocr_output_length": 644,
+      "timing": {
+        "Konversi": 0.008,
+        "Orientasi": 1.008,
+        "Grayscale": 0.002,
+        "Denoise": 0.003,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.449,
+        "TOTAL": 1.469
+      }
+    },
+    {
+      "filename": "WANCI (Listrik).pdf",
+      "category": "listrik",
+      "psm": 4,
+      "wer_percent": 3.65,
+      "cer_percent": 1.08,
+      "ground_truth_length": 926,
+      "ocr_output_length": 920,
+      "timing": {
+        "Konversi": 0.12,
+        "Orientasi": 1.556,
+        "Grayscale": 0.006,
+        "Denoise": 0.02,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.802,
+        "TOTAL": 2.506
+      }
+    },
+    {
+      "filename": "WANCI (Telpon).pdf",
+      "category": "telepon",
+      "psm": 4,
+      "wer_percent": 1.02,
+      "cer_percent": 0.14,
+      "ground_truth_length": 723,
+      "ocr_output_length": 722,
+      "timing": {
+        "Konversi": 0.244,
+        "Orientasi": 1.601,
+        "Grayscale": 0.007,
+        "Denoise": 0.025,
+        "Threshold": 0.0,
+        "Ekstraksi": 0.615,
+        "TOTAL": 2.492
+      }
+    }
+  ]
+}
