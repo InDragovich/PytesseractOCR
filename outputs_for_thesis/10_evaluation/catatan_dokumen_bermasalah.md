@@ -1,5 +1,12 @@
 # Catatan Dokumen Bermasalah
 
+> **Catatan redaksi:** Citra contoh di bawah berasal dari folder
+> `outputs_for_thesis/02_conversion/` dalam kondisi *un-redacted*.
+> Sebelum dipasang di buku TA, **blur / hitamkan area dengan**
+> **informasi pelanggan** (nama, NIK, alamat, nomor pelanggan).
+> Area teks tagihan / nominal aman ditampilkan karena merupakan
+> objek evaluasi OCR.
+
 Analisis terkonsolidasi dokumen *worst-case* dan *best-case* pada
 *pipeline* utama (BlackHat), untuk mendukung pembahasan **Bab V**
 dan menjawab pertanyaan pembimbing *"pada kasus seperti apa hasil
@@ -24,6 +31,8 @@ diakui di Bab V -- *preprocessing* tidak selalu meningkatkan hasil OCR.
 
 ### 1. MANYAR (Telpon).pdf
 
+![Citra asli MANYAR (Telpon)](../02_conversion/MANYAR (Telpon)_original.png)
+
 - **Kategori:** telepon | **Format:** PDF | **Resolusi:** 2313x1439
 - **Status:** membaik
 - **CER per skenario:**
@@ -40,6 +49,8 @@ diakui di Bab V -- *preprocessing* tidak selalu meningkatkan hasil OCR.
 - Strategi terbaik untuk dokumen ini = **Otsu**, bukan BlackHat -- temuan menarik tapi tidak digunakan sebagai default karena BlackHat menang rata-rata.
 
 ### 2. DEMPET (Air Gas).png
+
+![Citra asli DEMPET (Air Gas)](../02_conversion/DEMPET (Air Gas)_original.png)
 
 - **Kategori:** air | **Format:** PNG | **Resolusi:** 895x550
 - **Status:** memburuk
@@ -61,6 +72,8 @@ diakui di Bab V -- *preprocessing* tidak selalu meningkatkan hasil OCR.
 
 ### 3. PANCAJAYA (Listrik).pdf
 
+![Citra asli PANCAJAYA (Listrik)](../02_conversion/PANCAJAYA (Listrik)_original.png)
+
 - **Kategori:** listrik | **Format:** PDF | **Resolusi:** 2550x3300
 - **Status:** memburuk
 - **CER per skenario:**
@@ -80,6 +93,8 @@ diakui di Bab V -- *preprocessing* tidak selalu meningkatkan hasil OCR.
 
 ### 4. MANYAR (Listrik).pdf
 
+![Citra asli MANYAR (Listrik)](../02_conversion/MANYAR (Listrik)_original.png)
+
 - **Kategori:** listrik | **Format:** PDF | **Resolusi:** 1193x2298
 - **Status:** membaik
 - **CER per skenario:**
@@ -96,6 +111,8 @@ diakui di Bab V -- *preprocessing* tidak selalu meningkatkan hasil OCR.
 - Strategi terbaik untuk dokumen ini = **AdpGauss**, bukan BlackHat -- temuan menarik tapi tidak digunakan sebagai default karena BlackHat menang rata-rata.
 
 ### 5. MEDANPAYAGELI (Air Gas).pdf
+
+![Citra asli MEDANPAYAGELI (Air Gas)](../02_conversion/MEDANPAYAGELI (Air Gas)_original.png)
 
 - **Kategori:** air | **Format:** PDF | **Resolusi:** 2481x3508
 - **Status:** stabil
