@@ -1,0 +1,723 @@
+{
+  "timestamp": "2026-06-08_151345",
+  "scenarios": [
+    "baseline",
+    "pipeline_bh",
+    "pipeline_otsu",
+    "pipeline_adaptive"
+  ],
+  "summary_avg": {
+    "baseline": {
+      "wer": 19.53,
+      "cer": 9.89,
+      "waktu": 1.68
+    },
+    "pipeline_bh": {
+      "wer": 15.31,
+      "cer": 7.51,
+      "waktu": 7.53
+    },
+    "pipeline_otsu": {
+      "wer": 23.14,
+      "cer": 12.25,
+      "waktu": 7.39
+    },
+    "pipeline_adaptive": {
+      "wer": 23.45,
+      "cer": 10.53,
+      "waktu": 7.55
+    }
+  },
+  "votes": {
+    "baseline": 5,
+    "pipeline_bh": 16,
+    "pipeline_otsu": 2,
+    "pipeline_adaptive": 1
+  },
+  "per_document": {
+    "baseline": [
+      {
+        "filename": "ANYERLOR (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 7.2992700729927,
+        "cer": 1.4008620689655173,
+        "waktu": 1.0572335720062256
+      },
+      {
+        "filename": "BANDARBARU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 22.463768115942027,
+        "cer": 14.778856526429344,
+        "waktu": 1.9151690006256104
+      },
+      {
+        "filename": "BANDARBARU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 3.278688524590164,
+        "cer": 0.4618937644341801,
+        "waktu": 1.3723556995391846
+      },
+      {
+        "filename": "BATANGKUIS (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 20.588235294117645,
+        "cer": 13.088404133180253,
+        "waktu": 1.8375270366668701
+      },
+      {
+        "filename": "BATANGKUIS (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 8.19672131147541,
+        "cer": 0.9237875288683602,
+        "waktu": 1.3679780960083008
+      },
+      {
+        "filename": "DEMPET (Air Gas).png",
+        "kategori": "air",
+        "wer": 32.926829268292686,
+        "cer": 14.64968152866242,
+        "waktu": 0.839148998260498
+      },
+      {
+        "filename": "JERUKLEGI (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 44.85294117647059,
+        "cer": 13.774403470715836,
+        "waktu": 0.9945070743560791
+      },
+      {
+        "filename": "LEGOK (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 5.9405940594059405,
+        "cer": 1.358695652173913,
+        "waktu": 3.5995032787323
+      },
+      {
+        "filename": "MANYAR (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 29.464285714285715,
+        "cer": 18.682795698924732,
+        "waktu": 2.413945198059082
+      },
+      {
+        "filename": "MANYAR (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 38.04347826086957,
+        "cer": 30.69620253164557,
+        "waktu": 1.4555952548980713
+      },
+      {
+        "filename": "MEDANPAYAGELI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 24.637681159420293,
+        "cer": 13.725490196078432,
+        "waktu": 1.8590683937072754
+      },
+      {
+        "filename": "MEDANPAYAGELI (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 16.05839416058394,
+        "cer": 11.206896551724139,
+        "waktu": 1.96372389793396
+      },
+      {
+        "filename": "MEDANPAYAGELI (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 8.19672131147541,
+        "cer": 0.9237875288683602,
+        "waktu": 1.3431649208068848
+      },
+      {
+        "filename": "MUARATAE (Air Gas).png",
+        "kategori": "air",
+        "wer": 54.91803278688525,
+        "cer": 20.87745839636914,
+        "waktu": 0.8555903434753418
+      },
+      {
+        "filename": "NAMORAMBE (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 23.134328358208954,
+        "cer": 13.801169590643275,
+        "waktu": 1.6797773838043213
+      },
+      {
+        "filename": "NAMORAMBE (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 18.115942028985508,
+        "cer": 13.670613562970937,
+        "waktu": 1.9131824970245361
+      },
+      {
+        "filename": "NAMORAMBE (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 8.19672131147541,
+        "cer": 0.9237875288683602,
+        "waktu": 1.36556077003479
+      },
+      {
+        "filename": "PANCAJAYA (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 17.26618705035971,
+        "cer": 10.72961373390558,
+        "waktu": 1.8194291591644287
+      },
+      {
+        "filename": "PANCURBATU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 19.708029197080293,
+        "cer": 12.540192926045016,
+        "waktu": 1.9860012531280518
+      },
+      {
+        "filename": "PANCURBATU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 8.19672131147541,
+        "cer": 0.9259259259259258,
+        "waktu": 1.3569366931915283
+      },
+      {
+        "filename": "SEPATAN (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 11.538461538461538,
+        "cer": 2.8273809523809526,
+        "waktu": 3.412358283996582
+      },
+      {
+        "filename": "SINDANGKERTA (Telpon).jpg",
+        "kategori": "telepon",
+        "wer": 4.081632653061225,
+        "cer": 1.10803324099723,
+        "waktu": 0.9583175182342529
+      },
+      {
+        "filename": "SUKATANI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 13.709677419354838,
+        "cer": 8.091787439613526,
+        "waktu": 1.9346294403076172
+      },
+      {
+        "filename": "TOPOYO (Listrik).png",
+        "kategori": "listrik",
+        "wer": 27.941176470588236,
+        "cer": 16.251354279523294,
+        "waktu": 0.9851553440093994
+      }
+    ],
+    "pipeline_bh": [
+      {
+        "filename": "ANYERLOR (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 0.7299270072992701,
+        "cer": 0.10775862068965517,
+        "waktu": 5.000787973403931
+      },
+      {
+        "filename": "BANDARBARU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 17.391304347826086,
+        "cer": 11.86623516720604,
+        "waktu": 10.048908710479736
+      },
+      {
+        "filename": "BANDARBARU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 6.557377049180328,
+        "cer": 0.6928406466512702,
+        "waktu": 8.528261184692383
+      },
+      {
+        "filename": "BATANGKUIS (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 21.323529411764707,
+        "cer": 9.07003444316877,
+        "waktu": 9.717047214508057
+      },
+      {
+        "filename": "BATANGKUIS (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 4.918032786885246,
+        "cer": 0.4618937644341801,
+        "waktu": 8.254987239837646
+      },
+      {
+        "filename": "DEMPET (Air Gas).png",
+        "kategori": "air",
+        "wer": 50.0,
+        "cer": 18.895966029723994,
+        "waktu": 4.14723014831543
+      },
+      {
+        "filename": "JERUKLEGI (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 13.970588235294118,
+        "cer": 3.3622559652928414,
+        "waktu": 3.664443016052246
+      },
+      {
+        "filename": "LEGOK (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 4.9504950495049505,
+        "cer": 1.2228260869565217,
+        "waktu": 7.920403003692627
+      },
+      {
+        "filename": "MANYAR (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 19.642857142857142,
+        "cer": 13.709677419354838,
+        "waktu": 4.776773452758789
+      },
+      {
+        "filename": "MANYAR (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 36.95652173913043,
+        "cer": 26.740506329113924,
+        "waktu": 7.3624022006988525
+      },
+      {
+        "filename": "MEDANPAYAGELI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 23.91304347826087,
+        "cer": 13.148788927335639,
+        "waktu": 9.549567937850952
+      },
+      {
+        "filename": "MEDANPAYAGELI (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 16.05839416058394,
+        "cer": 11.422413793103448,
+        "waktu": 10.172054529190063
+      },
+      {
+        "filename": "MEDANPAYAGELI (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 1.639344262295082,
+        "cer": 0.23094688221709006,
+        "waktu": 7.754932165145874
+      },
+      {
+        "filename": "MUARATAE (Air Gas).png",
+        "kategori": "air",
+        "wer": 19.672131147540984,
+        "cer": 4.387291981845689,
+        "waktu": 3.1524672508239746
+      },
+      {
+        "filename": "NAMORAMBE (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 24.62686567164179,
+        "cer": 12.865497076023392,
+        "waktu": 9.463841915130615
+      },
+      {
+        "filename": "NAMORAMBE (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 15.942028985507244,
+        "cer": 7.965554359526372,
+        "waktu": 10.270538568496704
+      },
+      {
+        "filename": "NAMORAMBE (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 6.557377049180328,
+        "cer": 0.6928406466512702,
+        "waktu": 8.030681371688843
+      },
+      {
+        "filename": "PANCAJAYA (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 21.58273381294964,
+        "cer": 14.377682403433475,
+        "waktu": 10.05871319770813
+      },
+      {
+        "filename": "PANCURBATU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 21.16788321167883,
+        "cer": 11.361200428724544,
+        "waktu": 10.10849142074585
+      },
+      {
+        "filename": "PANCURBATU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 3.278688524590164,
+        "cer": 0.4629629629629629,
+        "waktu": 8.140481233596802
+      },
+      {
+        "filename": "SEPATAN (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 11.538461538461538,
+        "cer": 3.273809523809524,
+        "waktu": 7.398054361343384
+      },
+      {
+        "filename": "SINDANGKERTA (Telpon).jpg",
+        "kategori": "telepon",
+        "wer": 3.061224489795918,
+        "cer": 0.2770083102493075,
+        "waktu": 4.3250205516815186
+      },
+      {
+        "filename": "SUKATANI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 7.258064516129033,
+        "cer": 3.140096618357488,
+        "waktu": 9.03243613243103
+      },
+      {
+        "filename": "TOPOYO (Listrik).png",
+        "kategori": "listrik",
+        "wer": 14.705882352941178,
+        "cer": 10.617551462621885,
+        "waktu": 3.941258430480957
+      }
+    ],
+    "pipeline_otsu": [
+      {
+        "filename": "ANYERLOR (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 2.9197080291970803,
+        "cer": 0.5387931034482759,
+        "waktu": 4.728225946426392
+      },
+      {
+        "filename": "BANDARBARU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 26.08695652173913,
+        "cer": 14.886731391585762,
+        "waktu": 9.90000605583191
+      },
+      {
+        "filename": "BANDARBARU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 6.557377049180328,
+        "cer": 0.9237875288683602,
+        "waktu": 8.286569118499756
+      },
+      {
+        "filename": "BATANGKUIS (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 32.35294117647059,
+        "cer": 15.384615384615385,
+        "waktu": 9.638584613800049
+      },
+      {
+        "filename": "BATANGKUIS (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 13.114754098360656,
+        "cer": 2.3094688221709005,
+        "waktu": 8.042399644851685
+      },
+      {
+        "filename": "DEMPET (Air Gas).png",
+        "kategori": "air",
+        "wer": 74.39024390243902,
+        "cer": 50.74309978768577,
+        "waktu": 4.11770486831665
+      },
+      {
+        "filename": "JERUKLEGI (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 17.647058823529413,
+        "cer": 2.928416485900217,
+        "waktu": 3.688014268875122
+      },
+      {
+        "filename": "LEGOK (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 9.900990099009901,
+        "cer": 1.9021739130434785,
+        "waktu": 7.736696004867554
+      },
+      {
+        "filename": "MANYAR (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 27.67857142857143,
+        "cer": 18.27956989247312,
+        "waktu": 4.642945289611816
+      },
+      {
+        "filename": "MANYAR (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 35.869565217391305,
+        "cer": 21.677215189873415,
+        "waktu": 7.613282918930054
+      },
+      {
+        "filename": "MEDANPAYAGELI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 33.33333333333333,
+        "cer": 16.724336793540946,
+        "waktu": 9.427994728088379
+      },
+      {
+        "filename": "MEDANPAYAGELI (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 21.897810218978105,
+        "cer": 12.607758620689655,
+        "waktu": 9.974478006362915
+      },
+      {
+        "filename": "MEDANPAYAGELI (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 9.836065573770492,
+        "cer": 1.1547344110854503,
+        "waktu": 7.544220209121704
+      },
+      {
+        "filename": "MUARATAE (Air Gas).png",
+        "kategori": "air",
+        "wer": 18.0327868852459,
+        "cer": 4.992435703479576,
+        "waktu": 3.1222922801971436
+      },
+      {
+        "filename": "NAMORAMBE (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 81.34328358208955,
+        "cer": 58.245614035087726,
+        "waktu": 9.429656744003296
+      },
+      {
+        "filename": "NAMORAMBE (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 23.91304347826087,
+        "cer": 14.208826695371368,
+        "waktu": 10.048030138015747
+      },
+      {
+        "filename": "NAMORAMBE (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 9.836065573770492,
+        "cer": 1.3856812933025404,
+        "waktu": 7.754448175430298
+      },
+      {
+        "filename": "PANCAJAYA (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 22.302158273381295,
+        "cer": 14.484978540772534,
+        "waktu": 9.702655792236328
+      },
+      {
+        "filename": "PANCURBATU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 25.547445255474454,
+        "cer": 14.040728831725616,
+        "waktu": 9.980139970779419
+      },
+      {
+        "filename": "PANCURBATU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 4.918032786885246,
+        "cer": 1.1574074074074074,
+        "waktu": 7.762176036834717
+      },
+      {
+        "filename": "SEPATAN (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 10.576923076923077,
+        "cer": 4.166666666666666,
+        "waktu": 7.221138000488281
+      },
+      {
+        "filename": "SINDANGKERTA (Telpon).jpg",
+        "kategori": "telepon",
+        "wer": 5.1020408163265305,
+        "cer": 0.554016620498615,
+        "waktu": 4.245073080062866
+      },
+      {
+        "filename": "SUKATANI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 19.35483870967742,
+        "cer": 7.004830917874397,
+        "waktu": 8.958549976348877
+      },
+      {
+        "filename": "TOPOYO (Listrik).png",
+        "kategori": "listrik",
+        "wer": 22.794117647058822,
+        "cer": 13.651137594799568,
+        "waktu": 3.8842945098876953
+      }
+    ],
+    "pipeline_adaptive": [
+      {
+        "filename": "ANYERLOR (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 8.75912408759124,
+        "cer": 2.1551724137931036,
+        "waktu": 4.852582693099976
+      },
+      {
+        "filename": "BANDARBARU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 34.05797101449276,
+        "cer": 18.12297734627832,
+        "waktu": 10.280499696731567
+      },
+      {
+        "filename": "BANDARBARU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 3.278688524590164,
+        "cer": 0.4618937644341801,
+        "waktu": 8.40539026260376
+      },
+      {
+        "filename": "BATANGKUIS (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 25.0,
+        "cer": 9.184845005740529,
+        "waktu": 9.678191184997559
+      },
+      {
+        "filename": "BATANGKUIS (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 6.557377049180328,
+        "cer": 0.6928406466512702,
+        "waktu": 8.068559646606445
+      },
+      {
+        "filename": "DEMPET (Air Gas).png",
+        "kategori": "air",
+        "wer": 59.756097560975604,
+        "cer": 22.080679405520172,
+        "waktu": 4.142849922180176
+      },
+      {
+        "filename": "JERUKLEGI (Listrik).jpg",
+        "kategori": "listrik",
+        "wer": 21.323529411764707,
+        "cer": 6.507592190889371,
+        "waktu": 3.691307544708252
+      },
+      {
+        "filename": "LEGOK (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 9.900990099009901,
+        "cer": 2.5815217391304346,
+        "waktu": 7.716994762420654
+      },
+      {
+        "filename": "MANYAR (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 16.964285714285715,
+        "cer": 10.080645161290322,
+        "waktu": 4.66385817527771
+      },
+      {
+        "filename": "MANYAR (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 41.30434782608695,
+        "cer": 22.310126582278482,
+        "waktu": 7.62199854850769
+      },
+      {
+        "filename": "MEDANPAYAGELI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 31.88405797101449,
+        "cer": 18.223760092272205,
+        "waktu": 9.849903345108032
+      },
+      {
+        "filename": "MEDANPAYAGELI (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 32.11678832116788,
+        "cer": 14.76293103448276,
+        "waktu": 10.288601160049438
+      },
+      {
+        "filename": "MEDANPAYAGELI (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 1.639344262295082,
+        "cer": 0.4618937644341801,
+        "waktu": 7.649734973907471
+      },
+      {
+        "filename": "MUARATAE (Air Gas).png",
+        "kategori": "air",
+        "wer": 28.688524590163933,
+        "cer": 8.925869894099849,
+        "waktu": 3.1096606254577637
+      },
+      {
+        "filename": "NAMORAMBE (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 40.298507462686565,
+        "cer": 20.350877192982455,
+        "waktu": 9.784451961517334
+      },
+      {
+        "filename": "NAMORAMBE (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 33.33333333333333,
+        "cer": 18.29924650161464,
+        "waktu": 10.442551851272583
+      },
+      {
+        "filename": "NAMORAMBE (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 6.557377049180328,
+        "cer": 0.9237875288683602,
+        "waktu": 7.8849592208862305
+      },
+      {
+        "filename": "PANCAJAYA (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 33.093525179856115,
+        "cer": 18.88412017167382,
+        "waktu": 10.025340795516968
+      },
+      {
+        "filename": "PANCURBATU (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 36.496350364963504,
+        "cer": 18.327974276527332,
+        "waktu": 10.333160161972046
+      },
+      {
+        "filename": "PANCURBATU (Telpon).pdf",
+        "kategori": "telepon",
+        "wer": 9.836065573770492,
+        "cer": 1.1574074074074074,
+        "waktu": 7.941514730453491
+      },
+      {
+        "filename": "SEPATAN (Listrik).pdf",
+        "kategori": "listrik",
+        "wer": 10.576923076923077,
+        "cer": 5.5059523809523805,
+        "waktu": 7.322330713272095
+      },
+      {
+        "filename": "SINDANGKERTA (Telpon).jpg",
+        "kategori": "telepon",
+        "wer": 18.367346938775512,
+        "cer": 5.401662049861495,
+        "waktu": 4.3395326137542725
+      },
+      {
+        "filename": "SUKATANI (Air Gas).pdf",
+        "kategori": "air",
+        "wer": 33.064516129032256,
+        "cer": 15.096618357487923,
+        "waktu": 9.230720520019531
+      },
+      {
+        "filename": "TOPOYO (Listrik).png",
+        "kategori": "listrik",
+        "wer": 19.852941176470587,
+        "cer": 12.134344528710725,
+        "waktu": 3.9635815620422363
+      }
+    ]
+  },
+  "parameters": {
+    "adaptive_block_size": 31,
+    "adaptive_c": 10
+  }
+}

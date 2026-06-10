@@ -1,0 +1,97 @@
+filename,kategori,scenario,wer_percent,cer_percent,waktu_s
+ANYERLOR (Listrik).jpg,listrik,baseline,7.3,1.4,1.057
+BANDARBARU (Listrik).pdf,listrik,baseline,22.46,14.78,1.915
+BANDARBARU (Telpon).pdf,telepon,baseline,3.28,0.46,1.372
+BATANGKUIS (Air Gas).pdf,air,baseline,20.59,13.09,1.838
+BATANGKUIS (Telpon).pdf,telepon,baseline,8.2,0.92,1.368
+DEMPET (Air Gas).png,air,baseline,32.93,14.65,0.839
+JERUKLEGI (Listrik).jpg,listrik,baseline,44.85,13.77,0.995
+LEGOK (Telpon).pdf,telepon,baseline,5.94,1.36,3.6
+MANYAR (Listrik).pdf,listrik,baseline,29.46,18.68,2.414
+MANYAR (Telpon).pdf,telepon,baseline,38.04,30.7,1.456
+MEDANPAYAGELI (Air Gas).pdf,air,baseline,24.64,13.73,1.859
+MEDANPAYAGELI (Listrik).pdf,listrik,baseline,16.06,11.21,1.964
+MEDANPAYAGELI (Telpon).pdf,telepon,baseline,8.2,0.92,1.343
+MUARATAE (Air Gas).png,air,baseline,54.92,20.88,0.856
+NAMORAMBE (Air Gas).pdf,air,baseline,23.13,13.8,1.68
+NAMORAMBE (Listrik).pdf,listrik,baseline,18.12,13.67,1.913
+NAMORAMBE (Telpon).pdf,telepon,baseline,8.2,0.92,1.366
+PANCAJAYA (Listrik).pdf,listrik,baseline,17.27,10.73,1.819
+PANCURBATU (Listrik).pdf,listrik,baseline,19.71,12.54,1.986
+PANCURBATU (Telpon).pdf,telepon,baseline,8.2,0.93,1.357
+SEPATAN (Listrik).pdf,listrik,baseline,11.54,2.83,3.412
+SINDANGKERTA (Telpon).jpg,telepon,baseline,4.08,1.11,0.958
+SUKATANI (Air Gas).pdf,air,baseline,13.71,8.09,1.935
+TOPOYO (Listrik).png,listrik,baseline,27.94,16.25,0.985
+ANYERLOR (Listrik).jpg,listrik,pipeline_bh,0.73,0.11,5.001
+BANDARBARU (Listrik).pdf,listrik,pipeline_bh,17.39,11.87,10.049
+BANDARBARU (Telpon).pdf,telepon,pipeline_bh,6.56,0.69,8.528
+BATANGKUIS (Air Gas).pdf,air,pipeline_bh,21.32,9.07,9.717
+BATANGKUIS (Telpon).pdf,telepon,pipeline_bh,4.92,0.46,8.255
+DEMPET (Air Gas).png,air,pipeline_bh,50.0,18.9,4.147
+JERUKLEGI (Listrik).jpg,listrik,pipeline_bh,13.97,3.36,3.664
+LEGOK (Telpon).pdf,telepon,pipeline_bh,4.95,1.22,7.92
+MANYAR (Listrik).pdf,listrik,pipeline_bh,19.64,13.71,4.777
+MANYAR (Telpon).pdf,telepon,pipeline_bh,36.96,26.74,7.362
+MEDANPAYAGELI (Air Gas).pdf,air,pipeline_bh,23.91,13.15,9.55
+MEDANPAYAGELI (Listrik).pdf,listrik,pipeline_bh,16.06,11.42,10.172
+MEDANPAYAGELI (Telpon).pdf,telepon,pipeline_bh,1.64,0.23,7.755
+MUARATAE (Air Gas).png,air,pipeline_bh,19.67,4.39,3.152
+NAMORAMBE (Air Gas).pdf,air,pipeline_bh,24.63,12.87,9.464
+NAMORAMBE (Listrik).pdf,listrik,pipeline_bh,15.94,7.97,10.271
+NAMORAMBE (Telpon).pdf,telepon,pipeline_bh,6.56,0.69,8.031
+PANCAJAYA (Listrik).pdf,listrik,pipeline_bh,21.58,14.38,10.059
+PANCURBATU (Listrik).pdf,listrik,pipeline_bh,21.17,11.36,10.108
+PANCURBATU (Telpon).pdf,telepon,pipeline_bh,3.28,0.46,8.14
+SEPATAN (Listrik).pdf,listrik,pipeline_bh,11.54,3.27,7.398
+SINDANGKERTA (Telpon).jpg,telepon,pipeline_bh,3.06,0.28,4.325
+SUKATANI (Air Gas).pdf,air,pipeline_bh,7.26,3.14,9.032
+TOPOYO (Listrik).png,listrik,pipeline_bh,14.71,10.62,3.941
+ANYERLOR (Listrik).jpg,listrik,pipeline_otsu,2.92,0.54,4.728
+BANDARBARU (Listrik).pdf,listrik,pipeline_otsu,26.09,14.89,9.9
+BANDARBARU (Telpon).pdf,telepon,pipeline_otsu,6.56,0.92,8.287
+BATANGKUIS (Air Gas).pdf,air,pipeline_otsu,32.35,15.38,9.639
+BATANGKUIS (Telpon).pdf,telepon,pipeline_otsu,13.11,2.31,8.042
+DEMPET (Air Gas).png,air,pipeline_otsu,74.39,50.74,4.118
+JERUKLEGI (Listrik).jpg,listrik,pipeline_otsu,17.65,2.93,3.688
+LEGOK (Telpon).pdf,telepon,pipeline_otsu,9.9,1.9,7.737
+MANYAR (Listrik).pdf,listrik,pipeline_otsu,27.68,18.28,4.643
+MANYAR (Telpon).pdf,telepon,pipeline_otsu,35.87,21.68,7.613
+MEDANPAYAGELI (Air Gas).pdf,air,pipeline_otsu,33.33,16.72,9.428
+MEDANPAYAGELI (Listrik).pdf,listrik,pipeline_otsu,21.9,12.61,9.974
+MEDANPAYAGELI (Telpon).pdf,telepon,pipeline_otsu,9.84,1.15,7.544
+MUARATAE (Air Gas).png,air,pipeline_otsu,18.03,4.99,3.122
+NAMORAMBE (Air Gas).pdf,air,pipeline_otsu,81.34,58.25,9.43
+NAMORAMBE (Listrik).pdf,listrik,pipeline_otsu,23.91,14.21,10.048
+NAMORAMBE (Telpon).pdf,telepon,pipeline_otsu,9.84,1.39,7.754
+PANCAJAYA (Listrik).pdf,listrik,pipeline_otsu,22.3,14.48,9.703
+PANCURBATU (Listrik).pdf,listrik,pipeline_otsu,25.55,14.04,9.98
+PANCURBATU (Telpon).pdf,telepon,pipeline_otsu,4.92,1.16,7.762
+SEPATAN (Listrik).pdf,listrik,pipeline_otsu,10.58,4.17,7.221
+SINDANGKERTA (Telpon).jpg,telepon,pipeline_otsu,5.1,0.55,4.245
+SUKATANI (Air Gas).pdf,air,pipeline_otsu,19.35,7.0,8.959
+TOPOYO (Listrik).png,listrik,pipeline_otsu,22.79,13.65,3.884
+ANYERLOR (Listrik).jpg,listrik,pipeline_adaptive,8.76,2.16,4.853
+BANDARBARU (Listrik).pdf,listrik,pipeline_adaptive,34.06,18.12,10.28
+BANDARBARU (Telpon).pdf,telepon,pipeline_adaptive,3.28,0.46,8.405
+BATANGKUIS (Air Gas).pdf,air,pipeline_adaptive,25.0,9.18,9.678
+BATANGKUIS (Telpon).pdf,telepon,pipeline_adaptive,6.56,0.69,8.069
+DEMPET (Air Gas).png,air,pipeline_adaptive,59.76,22.08,4.143
+JERUKLEGI (Listrik).jpg,listrik,pipeline_adaptive,21.32,6.51,3.691
+LEGOK (Telpon).pdf,telepon,pipeline_adaptive,9.9,2.58,7.717
+MANYAR (Listrik).pdf,listrik,pipeline_adaptive,16.96,10.08,4.664
+MANYAR (Telpon).pdf,telepon,pipeline_adaptive,41.3,22.31,7.622
+MEDANPAYAGELI (Air Gas).pdf,air,pipeline_adaptive,31.88,18.22,9.85
+MEDANPAYAGELI (Listrik).pdf,listrik,pipeline_adaptive,32.12,14.76,10.289
+MEDANPAYAGELI (Telpon).pdf,telepon,pipeline_adaptive,1.64,0.46,7.65
+MUARATAE (Air Gas).png,air,pipeline_adaptive,28.69,8.93,3.11
+NAMORAMBE (Air Gas).pdf,air,pipeline_adaptive,40.3,20.35,9.784
+NAMORAMBE (Listrik).pdf,listrik,pipeline_adaptive,33.33,18.3,10.443
+NAMORAMBE (Telpon).pdf,telepon,pipeline_adaptive,6.56,0.92,7.885
+PANCAJAYA (Listrik).pdf,listrik,pipeline_adaptive,33.09,18.88,10.025
+PANCURBATU (Listrik).pdf,listrik,pipeline_adaptive,36.5,18.33,10.333
+PANCURBATU (Telpon).pdf,telepon,pipeline_adaptive,9.84,1.16,7.942
+SEPATAN (Listrik).pdf,listrik,pipeline_adaptive,10.58,5.51,7.322
+SINDANGKERTA (Telpon).jpg,telepon,pipeline_adaptive,18.37,5.4,4.34
+SUKATANI (Air Gas).pdf,air,pipeline_adaptive,33.06,15.1,9.231
+TOPOYO (Listrik).png,listrik,pipeline_adaptive,19.85,12.13,3.964

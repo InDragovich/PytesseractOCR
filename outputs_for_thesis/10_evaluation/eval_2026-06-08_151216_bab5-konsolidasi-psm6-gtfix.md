@@ -1,0 +1,81 @@
+# Bab V — Hasil Evaluasi OCR
+
+*Timestamp:* 2026-06-08_151216  
+*Tesseract:* 5.5.0.20241111  
+*Total dokumen OCR:* 24 (18 dokumen *text-layer* dikecualikan)
+
+## Tabel 1. Ringkasan Akurasi & Waktu Pemrosesan
+
+| Metrik | Tanpa *Preprocessing* | Dengan *Preprocessing* | Selisih | Perubahan |
+|---|---|---|---|---|
+| Rata-rata WER (%) | 19.53 | 15.31 | +4.22 | +21.6% |
+| Rata-rata CER (%) | 9.89 | 7.51 | +2.38 | +24.0% |
+| Rata-rata waktu (detik/dok) | 1.68 | 7.53 | +5.86 | -348.8% |
+
+## Tabel 2. Akurasi & Waktu per Dokumen
+
+| No | Dokumen | Kategori | WER Tanpa | WER Dengan | ΔWER | CER Tanpa | CER Dengan | ΔCER | Waktu Tanpa (s) | Waktu Dengan (s) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | ANYERLOR (Listrik).jpg | listrik | 7.30 | 0.73 | +6.57 | 1.40 | 0.11 | +1.29 | 1.06 | 5.00 |
+| 2 | BANDARBARU (Listrik).pdf | listrik | 22.46 | 17.39 | +5.07 | 14.78 | 11.87 | +2.91 | 1.92 | 10.05 |
+| 3 | BANDARBARU (Telpon).pdf | telepon | 3.28 | 6.56 | -3.28 | 0.46 | 0.69 | -0.23 | 1.37 | 8.53 |
+| 4 | BATANGKUIS (Air Gas).pdf | air | 20.59 | 21.32 | -0.74 | 13.09 | 9.07 | +4.02 | 1.84 | 9.72 |
+| 5 | BATANGKUIS (Telpon).pdf | telepon | 8.20 | 4.92 | +3.28 | 0.92 | 0.46 | +0.46 | 1.37 | 8.25 |
+| 6 | DEMPET (Air Gas).png | air | 32.93 | 50.00 | -17.07 | 14.65 | 18.90 | -4.25 | 0.84 | 4.15 |
+| 7 | JERUKLEGI (Listrik).jpg | listrik | 44.85 | 13.97 | +30.88 | 13.77 | 3.36 | +10.41 | 0.99 | 3.66 |
+| 8 | LEGOK (Telpon).pdf | telepon | 5.94 | 4.95 | +0.99 | 1.36 | 1.22 | +0.14 | 3.60 | 7.92 |
+| 9 | MANYAR (Listrik).pdf | listrik | 29.46 | 19.64 | +9.82 | 18.68 | 13.71 | +4.97 | 2.41 | 4.78 |
+| 10 | MANYAR (Telpon).pdf | telepon | 38.04 | 36.96 | +1.09 | 30.70 | 26.74 | +3.96 | 1.46 | 7.36 |
+| 11 | MEDANPAYAGELI (Air Gas).pdf | air | 24.64 | 23.91 | +0.72 | 13.73 | 13.15 | +0.58 | 1.86 | 9.55 |
+| 12 | MEDANPAYAGELI (Listrik).pdf | listrik | 16.06 | 16.06 | +0.00 | 11.21 | 11.42 | -0.22 | 1.96 | 10.17 |
+| 13 | MEDANPAYAGELI (Telpon).pdf | telepon | 8.20 | 1.64 | +6.56 | 0.92 | 0.23 | +0.69 | 1.34 | 7.75 |
+| 14 | MUARATAE (Air Gas).png | air | 54.92 | 19.67 | +35.25 | 20.88 | 4.39 | +16.49 | 0.86 | 3.15 |
+| 15 | NAMORAMBE (Air Gas).pdf | air | 23.13 | 24.63 | -1.49 | 13.80 | 12.87 | +0.94 | 1.68 | 9.46 |
+| 16 | NAMORAMBE (Listrik).pdf | listrik | 18.12 | 15.94 | +2.17 | 13.67 | 7.97 | +5.71 | 1.91 | 10.27 |
+| 17 | NAMORAMBE (Telpon).pdf | telepon | 8.20 | 6.56 | +1.64 | 0.92 | 0.69 | +0.23 | 1.37 | 8.03 |
+| 18 | PANCAJAYA (Listrik).pdf | listrik | 17.27 | 21.58 | -4.32 | 10.73 | 14.38 | -3.65 | 1.82 | 10.06 |
+| 19 | PANCURBATU (Listrik).pdf | listrik | 19.71 | 21.17 | -1.46 | 12.54 | 11.36 | +1.18 | 1.99 | 10.11 |
+| 20 | PANCURBATU (Telpon).pdf | telepon | 8.20 | 3.28 | +4.92 | 0.93 | 0.46 | +0.46 | 1.36 | 8.14 |
+| 21 | SEPATAN (Listrik).pdf | listrik | 11.54 | 11.54 | +0.00 | 2.83 | 3.27 | -0.45 | 3.41 | 7.40 |
+| 22 | SINDANGKERTA (Telpon).jpg | telepon | 4.08 | 3.06 | +1.02 | 1.11 | 0.28 | +0.83 | 0.96 | 4.33 |
+| 23 | SUKATANI (Air Gas).pdf | air | 13.71 | 7.26 | +6.45 | 8.09 | 3.14 | +4.95 | 1.93 | 9.03 |
+| 24 | TOPOYO (Listrik).png | listrik | 27.94 | 14.71 | +13.24 | 16.25 | 10.62 | +5.63 | 0.99 | 3.94 |
+| | **RATA-RATA** | | **19.53** | **15.31** | **+4.22** | **9.89** | **7.51** | **+2.38** | **1.68** | **7.53** |
+
+## Tabel 3. Analisis Kata per Dokumen (Hasil Dengan *Preprocessing*)
+
+| No | Dokumen | Total Kata GT | Benar | Hilang | Salah | % Benar |
+|---|---|---|---|---|---|---|
+| 1 | ANYERLOR (Listrik).jpg | 137 | 136 | 0 | 1 | 99.3% |
+| 2 | BANDARBARU (Listrik).pdf | 138 | 114 | 6 | 18 | 82.6% |
+| 3 | BANDARBARU (Telpon).pdf | 61 | 58 | 0 | 4 | 95.1% |
+| 4 | BATANGKUIS (Air Gas).pdf | 136 | 114 | 2 | 27 | 83.8% |
+| 5 | BATANGKUIS (Telpon).pdf | 61 | 59 | 0 | 3 | 96.7% |
+| 6 | DEMPET (Air Gas).png | 82 | 51 | 5 | 36 | 62.2% |
+| 7 | JERUKLEGI (Listrik).jpg | 136 | 117 | 0 | 19 | 86.0% |
+| 8 | LEGOK (Telpon).pdf | 101 | 99 | 0 | 5 | 98.0% |
+| 9 | MANYAR (Listrik).pdf | 112 | 90 | 7 | 15 | 80.4% |
+| 10 | MANYAR (Telpon).pdf | 92 | 64 | 18 | 16 | 69.6% |
+| 11 | MEDANPAYAGELI (Air Gas).pdf | 138 | 110 | 8 | 25 | 79.7% |
+| 12 | MEDANPAYAGELI (Listrik).pdf | 137 | 116 | 7 | 15 | 84.7% |
+| 13 | MEDANPAYAGELI (Telpon).pdf | 61 | 60 | 0 | 1 | 98.4% |
+| 14 | MUARATAE (Air Gas).png | 122 | 101 | 1 | 23 | 82.8% |
+| 15 | NAMORAMBE (Air Gas).pdf | 134 | 103 | 9 | 24 | 76.9% |
+| 16 | NAMORAMBE (Listrik).pdf | 138 | 119 | 1 | 21 | 86.2% |
+| 17 | NAMORAMBE (Telpon).pdf | 61 | 58 | 0 | 4 | 95.1% |
+| 18 | PANCAJAYA (Listrik).pdf | 139 | 113 | 5 | 25 | 81.3% |
+| 19 | PANCURBATU (Listrik).pdf | 137 | 111 | 6 | 23 | 81.0% |
+| 20 | PANCURBATU (Telpon).pdf | 61 | 59 | 0 | 2 | 96.7% |
+| 21 | SEPATAN (Listrik).pdf | 104 | 95 | 1 | 11 | 91.3% |
+| 22 | SINDANGKERTA (Telpon).jpg | 98 | 96 | 0 | 3 | 98.0% |
+| 23 | SUKATANI (Air Gas).pdf | 124 | 115 | 6 | 3 | 92.7% |
+| 24 | TOPOYO (Listrik).png | 136 | 116 | 9 | 11 | 85.3% |
+| | **TOTAL** | **2646** | **2274** | **91** | **335** | **85.9%** |
+
+## Keterangan
+
+- **WER** (*Word Error Rate*): tingkat kesalahan kata; nilai lebih kecil berarti lebih baik.
+- **CER** (*Character Error Rate*): tingkat kesalahan karakter; nilai lebih kecil berarti lebih baik.
+- **ΔWER / ΔCER** positif: *preprocessing* berhasil menurunkan tingkat kesalahan.
+- **Kata Benar / Hilang / Salah** dihitung dengan *word-level alignment* menggunakan library *jiwer*; kategori 'salah' mencakup substitusi dan insersi (kata di hasil OCR yang tidak sesuai *ground truth*).
+- Dokumen PDF dengan *text layer* digital (jalur ekstraksi `pdftotext`) dikecualikan dari evaluasi OCR karena tidak melalui *pipeline* pemrosesan citra.

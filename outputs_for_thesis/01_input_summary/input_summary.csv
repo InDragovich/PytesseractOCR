@@ -1,0 +1,43 @@
+no,filename,kategori,doc_group,masuk_evaluasi_ocr
+1,ANYERLOR (Listrik).jpg,listrik,Gambar JPG/PNG,ya
+2,BANDARBARU (Listrik).pdf,listrik,PDF Scan,ya
+3,BANDARBARU (Telpon).pdf,telepon,PDF Scan,ya
+4,BATANGKUIS (Air Gas).pdf,air,PDF Scan,ya
+5,BATANGKUIS (Telpon).pdf,telepon,PDF Scan,ya
+6,DEMPET (Air Gas).png,air,Gambar JPG/PNG,ya
+7,JERUKLEGI (Listrik).jpg,listrik,Gambar JPG/PNG,ya
+8,LEGOK (Telpon).pdf,telepon,PDF Scan,ya
+9,MANYAR (Listrik).pdf,listrik,PDF Scan,ya
+10,MANYAR (Telpon).pdf,telepon,PDF Scan,ya
+11,MEDANPAYAGELI (Air Gas).pdf,air,PDF Scan,ya
+12,MEDANPAYAGELI (Listrik).pdf,listrik,PDF Scan,ya
+13,MEDANPAYAGELI (Telpon).pdf,telepon,PDF Scan,ya
+14,MUARATAE (Air Gas).png,air,Gambar JPG/PNG,ya
+15,NAMORAMBE (Air Gas).pdf,air,PDF Scan,ya
+16,NAMORAMBE (Listrik).pdf,listrik,PDF Scan,ya
+17,NAMORAMBE (Telpon).pdf,telepon,PDF Scan,ya
+18,PANCAJAYA (Listrik).pdf,listrik,PDF Scan,ya
+19,PANCURBATU (Listrik).pdf,listrik,PDF Scan,ya
+20,PANCURBATU (Telpon).pdf,telepon,PDF Scan,ya
+21,SEPATAN (Listrik).pdf,listrik,PDF Scan,ya
+22,SINDANGKERTA (Telpon).jpg,telepon,Gambar JPG/PNG,ya
+23,SUKATANI (Air Gas).pdf,air,PDF Scan,ya
+24,TOPOYO (Listrik).png,listrik,Gambar JPG/PNG,ya
+D1,CISOLOK (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D2,DANDER (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D3,DEMPET (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D4,JATINEGARATEGAL (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D5,KAPAS (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D6,KARANGANYARDEMAK (Telpon).pdf,telepon,PDF Digital,tidak (pdftotext)
+D7,MATAOMPANA (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D8,MUARAANCALONG (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D9,MUTING (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D10,NAGRAK (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D11,NAGRAK (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D12,PALANGGA (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D13,PARUNGPANJANG (Air Gas).pdf,air,PDF Digital,tidak (pdftotext)
+D14,PARUNGPANJANG (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D15,PENDAWANBARU (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D16,TANAHMIRING (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D17,WANCI (Listrik).pdf,listrik,PDF Digital,tidak (pdftotext)
+D18,WANCI (Telpon).pdf,telepon,PDF Digital,tidak (pdftotext)
